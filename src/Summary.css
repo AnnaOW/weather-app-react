@@ -1,0 +1,15 @@
+.current-weather-summary {
+  background-color: rgba(211, 210, 213, 0.3);
+  border: 2px solid #3a4750;
+  border-radius: 5px;
+  color: #3a4750;
+  float: left;
+  font-size: 20px;
+  font-weight: 700;
+  height: 165px;
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: 20px 15px;
+  text-transform: capitalize;
+  width: 250px;
+}

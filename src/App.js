@@ -1,26 +1,35 @@
-import logo from "./logo.svg";
-import "./App.css";
-import axios from "axios";
+import "./styles.css";
+import Search from "./Search";
+import "./Search.css";
+import Summary from "./Summary";
+import "./Summary.css";
+import Temperature from "./Temperature";
+import "./Temperature.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="weather-app">
+        <Search />
+        <h1>
+          <strong>Verona</strong>
+        </h1>
+        <h4>Friday, 24 November 2023, 20:11</h4>
+
+        <img
+          className="weather-picture"
+          src="https://media.istockphoto.com/id/1368722560/it/vettoriale/disegno-cute-sun-cartoon-illustrazione-vettoriale-su-sfondo-bianco-illustrazione.jpg?s=1024x1024&w=is&k=20&c=sZ5985JBfghfSjY9T_htzk2dR1YVtQ78plok8nzW3vU="
+          alt="Sun"
+        />
+
+        <Summary />
+
+        <Temperature />
+      </div>
+      <footer>
+        This project was coded by Anna Oliwia Wierzbicka, and is{" "}
+        <a href="https://github.com/AnnaOW/weather-app-react">open-sourced</a>.
+      </footer>
     </div>
   );
 }
-
-export default App;
