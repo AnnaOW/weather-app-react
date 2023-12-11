@@ -5,11 +5,12 @@ import Summary from "./Summary";
 import "./Summary.css";
 import Temperature from "./Temperature";
 import "./Temperature.css";
+import "bootstrap/dist/css/bootstrap.css";
 
 export default function App() {
   return (
     <div className="App">
-      <div className="weather-app">
+      <div className="weather-app container">
         <Search />
         <h1>
           <strong>Verona</strong>
