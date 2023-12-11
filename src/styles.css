@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?&family=Roboto&family=Rowdies:wght@300&display=swap");
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
 .App h1 {
   color: #3a4750;
   font-family: "Rowdies", cursive;
