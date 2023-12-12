@@ -4,12 +4,11 @@
   box-sizing: border-box;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 24px;
-  height: 55px;
+  height: 48px;
   margin: 30px;
   opacity: 80%;
   padding: 3px;
   text-align: center;
-  width: 200px;
 }
 
 ::placeholder {
@@ -17,6 +16,8 @@
 }
 
 .search-city-button {
-  position: relative;
   bottom: 5px;
+  margin-left: 38px;
+  position: relative;
+  width: 28%;
 }

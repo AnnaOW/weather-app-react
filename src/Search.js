@@ -12,6 +12,7 @@ export default function Search() {
           required
           placeholder="Type your city here"
           autoComplete="off"
+          autoFocus="on"
         />
         <input
           type="submit"
