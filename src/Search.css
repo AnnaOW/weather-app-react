@@ -34,3 +34,8 @@
 .current-temperature h5 {
   font-size: 6em;
 }
+
+.current-temperature h6 {
+  font-size: 25px;
+  margin-left: 15px;
+}
