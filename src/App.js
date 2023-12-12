@@ -3,10 +3,7 @@ import Search from "./Search";
 import "./Search.css";
 import Summary from "./Summary";
 import "./Summary.css";
-import Temperature from "./Temperature";
-import "./Temperature.css";
 import "bootstrap/dist/css/bootstrap.css";
-
 
 export default function App() {
   return (
@@ -25,8 +22,6 @@ export default function App() {
         />
 
         <Summary />
-
-        <Temperature />
       </div>
       <footer>
         This project was coded by Anna Oliwia Wierzbicka, and is{" "}

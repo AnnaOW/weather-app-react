@@ -19,5 +19,18 @@
   bottom: 5px;
   margin-left: 38px;
   position: relative;
-  width: 28%;
+  width: 280%;
+}
+
+.current-temperature {
+  color: #3a4750;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -300px;
+  left: 780px;
+}
+
+.current-temperature h5 {
+  font-size: 6em;
 }
