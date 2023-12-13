@@ -7,28 +7,6 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-.App h1 {
-  color: #3a4750;
-  font-family: "Rowdies", cursive;
-  padding: 20px;
-  padding-bottom: 0;
-}
-
-.App h4 {
-  color: #3a4750;
-  font-family: "Rowdies", cursive;
-  padding: 20px;
-}
-
-.App .weather-picture {
-  float: left;
-  height: 200px;
-  margin-left: 40px;
-  margin-top: 10px;
-  padding: 20px;
-  width: 190px;
-}
-
 .App .weather-app {
   background: radial-gradient(
     circle at -14.3% -17.5%,
