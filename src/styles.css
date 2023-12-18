@@ -8,11 +8,7 @@ html {
 }
 
 .App .weather-app {
-  background: radial-gradient(
-    circle at -14.3% -17.5%,
-    rgb(245, 168, 168) 4%,
-    rgb(164, 168, 248) 100.2%
-  );
+  background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
   border-radius: 15px;
   border: 5px solid #3a4750;
   height: 800px;
