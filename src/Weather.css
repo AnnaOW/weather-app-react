@@ -1,16 +1,33 @@
-.Weather {
-  font-family: arial, sans-serif;
-  border: 1px solid #dadde1;
-  padding: 16px;
-  border-radius: 4px;
-  color: rgb(135, 135, 135);
+.Weather h1 {
+  color: #3a4750;
+  font-family: "Rowdies", cursive;
+  padding: 20px;
+  padding-bottom: 0;
 }
 
-.Weather h1 {
+.Weather .find-your-city-search {
+  border: 2px solid #3a4750;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 24px;
-  font-weight: 100;
-  margin: 20px 0 0 0;
-  line-height: 29px;
+  height: 55px;
+  margin: 30px;
+  opacity: 80%;
+  padding: 3px;
+  text-align: center;
+  width: 200px;
+}
+
+::placeholder {
+  text-transform: uppercase;
+}
+
+.Weather .search-city-button {
+  position: relative;
+  bottom: 5px;
+  margin-left: 10px;
+  width: 180px;
 }
 
 .Weather ul {
@@ -19,20 +36,27 @@
 }
 
 .Weather li {
-  font-size: 16px;
-  font-weight: 100;
-  line-height: 19px;
+  color: #3a4750;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
   list-style: none;
 }
 
+.Weather .formatted-date {
+  color: #3a4750;
+  font-size: 24px;
+  font-family: "Rowdies", cursive;
+  padding: 20px;
+}
+
 .Weather .temperature {
+  color: #3a4750;
   font-weight: bold;
-  color: rgb(33, 33, 33);
-  font-size: 64px;
+  font-size: 84px;
   line-height: 64px;
-  margin-left: 5px;
+  margin-left: 15px;
   font-weight: 400;
-  margin-left: 10px;
 }
 
 .Weather canvas {
@@ -40,10 +64,22 @@
 }
 
 .Weather .unit {
-  color: rgb(33, 33, 33);
-  font-size: 16px;
-  font-weight: 400;
+  color: #3a4750;
+  font-size: 24px;
+  font-weight: 600;
   position: relative;
   line-height: 1;
-  top: -34px;
+  top: -44px;
+}
+
+.Weather .current-weather-summary {
+  background-color: rgba(211, 210, 213, 0.3);
+  border: 2px solid #3a4750;
+  border-radius: 5px;
+  color: #3a4750;
+  font-size: 20px;
+  font-weight: 700;
+  height: 120px;
+  padding: 20px 15px;
+  width: 250px;
 }
