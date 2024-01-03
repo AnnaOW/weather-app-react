@@ -1,5 +1,16 @@
+h4 {
+  font-size: 18px;
+  padding: 20px;
+}
+
 .WeatherForecast {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  display: block;
   text-align: center;
+  justify-items: center;
+  margin: 0px auto;
+  padding: 20px;
 }
 
 .WeatherForecast-temperature-min {

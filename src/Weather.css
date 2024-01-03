@@ -60,7 +60,7 @@
 }
 
 .Weather canvas {
-  margin: 10px auto;
+  margin: 10px 45px;
 }
 
 .Weather .unit {
@@ -82,5 +82,5 @@
   font-size: 34px;
   font-weight: 700;
   height: 140px;
-  width: 250px;
+  width: 275px;
 }

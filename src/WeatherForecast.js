@@ -28,9 +28,18 @@ export default function WeatherForecast(props) {
   if (loaded) {
     return (
       <div className="WeatherForecast">
+        <h4>
+          <em>
+            Next 6-day forecast
+            <span className="WeatherForecast-temperature-min">
+              with minimum temperature
+            </span>
+            :
+          </em>
+        </h4>
         <div className="row">
           {forecast.map(function (dailyForecast, index) {
-            if (index < 5) {
+            if (index < 6) {
               return <WeatherForecastDay data={dailyForecast} />;
             } else {
               return null;
